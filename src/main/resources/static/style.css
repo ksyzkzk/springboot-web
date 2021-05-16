@@ -1,0 +1,9 @@
+h1 {
+    color: aqua;
+    background-color: blue;
+    width: 50%;
+    height: 10%;
+}
+table {
+    border: 1px solid black;
+}

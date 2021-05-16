@@ -1,0 +1,32 @@
+{{>layout/updateheader}}
+<h1>게시글 수정</h1>
+<div>
+    <div>
+        <form>
+            <div>
+                <lable for="id">글번호</lable>
+                <input type="text" id="id" value="{{post.id}}" readonly>
+            </div>
+            <div>
+                <label for="title">제목</label>
+                <input type="text" id="title" value="{{post.title}}">
+
+            </div>
+            <div>
+                <label for="author">작성자</label>
+                <input type="text" id="author" value="{{post.author}}" readonly>
+            </div>
+            <div>
+                <label for="content">내용</label>
+                <textarea id="content">{{post.content}}</textarea>
+            </div>
+        </form>
+        <a href="/" role="button">취소</a>
+        <button type="button" id="btn-update">수정완료</button>
+        <button type="button" id="btn-delete">삭제</button>
+    </div>
+</div>
+
+
+
+{{>layout/updatefooter}}
