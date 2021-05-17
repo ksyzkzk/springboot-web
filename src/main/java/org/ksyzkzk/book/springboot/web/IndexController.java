@@ -14,6 +14,26 @@ import javax.servlet.http.HttpServletRequest;
 public class IndexController {
     private final PostsService postsService;
 
+    @GetMapping("/home")
+    public String home(){
+        return "home";
+    }
+
+    @GetMapping("/genre")
+    public String genre(){
+        return "genre";
+    }
+
+    @GetMapping("/new")
+    public String newsong(){
+        return "new";
+    }
+
+    @GetMapping("/board")
+    public String board(){
+        return "board";
+    }
+
     @GetMapping("/")
     public String index(Model model){
         model.addAttribute("posts",postsService.findAllDesc());

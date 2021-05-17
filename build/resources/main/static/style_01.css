@@ -1,0 +1,446 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: floralwhite;
+    
+    font-family: 'Do Hyeon';
+}
+
+#zzzzzzheader{
+    width: 100%;
+    height: 20%;
+    background-image: url("/img/A-C/beach.jpg");
+    background-size: 100% 100%;
+    filter:brightness(50%);
+}
+#x{
+    width: 100%;
+    height: 20%;
+    position: relative;
+    z-index: 1;
+}
+#x::after{
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-image: url("/img/A-C/beach.jpg");
+    background-size: 100% 100%;
+    filter:brightness(50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+header>div{
+    width: 15%;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-108%, -50%);
+}
+
+header>div>img {
+    width: 102%;
+    height: 102%;
+    margin: 0px 0;
+    z-index: 2;
+    
+}
+nav {
+    width: 10%;
+    height: 90%;
+    
+    float: left;
+}
+nav>div{
+    width: 9%;
+    height: 25%;
+    
+    position: fixed;
+    margin: 830px auto;
+    top: -524px;
+    left: 5px;
+}
+#nav_bar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column;
+    background-color: white;
+    
+}
+nav>div>ul>li {
+    width: 100%;
+    height: 25%;
+    border-width: 1px 1px 0px 1px;
+    border-style: outset;
+    border-color: white;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 25pt;
+    color: white;
+}
+body>#top{
+    width: 90%;
+    height: 90%;
+      
+    overflow: auto;
+    z-index: 0;
+   
+}
+body>#top>#bt_1 {
+    width: 100%;
+    height: 60%;
+    
+}
+body>#top>#bt_2{
+    width: 90%;
+    height: 40%;
+    
+}
+body>#top>#bt_1>#ch {
+    width: 90%;
+    height: 10%;
+    background-color: mediumspringgreen;
+    
+}
+body>#top>#bt_1>#ch>span{
+    
+}
+t {
+
+}
+#sh{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 29pt;
+}
+body>#top>#bt_1>#pl {
+    width: 90%;
+    height: 90%;
+    background-color: white;
+}
+#pl>ul>li {
+    width: 16.6666%;
+    height: 100%;
+    border-width: 1px 1px 0px 1px;
+    border-color: white;
+    border-style: ridge;
+    margin: 0px;
+    box-sizing: border-box;
+    position: relative;
+}
+#zzpl>ul>li>div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18pt;
+}
+#pl>ul>li:nth-last-child(1){
+    border-bottom: 1px solid white;
+    
+}
+nav>div>ul>li:nth-last-child(1){
+    border-bottom: 1px solid white;
+}
+#bt1{
+    width: 33%;
+    height: 70%;
+    background-color: khaki;
+    
+}
+
+footer {
+    width: 100%;
+    height: 10%;
+    background-color: black;
+}
+#play_list{list-style: none;
+    margin: 0px;
+    display: flex;
+    padding: 0px;
+    flex-wrap: nowrap;
+    height: 100%}
+a.nav{    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+iframe {
+    margin: 0px;
+}   
+x{
+    color: green;
+    font-weight: bold;
+}
+.album {
+    width: 100%;
+    height: 70%;
+}
+
+.name {
+    text-align: center;
+    width: 100%;
+    height: 18%;
+    font-size: 106%;
+    position: relative;
+}
+.nm_1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.controler{
+    width: 100%;
+    height: 10%;
+}
+div>audio {
+    width: 100%;
+    height: 90%;
+}
+.album_1{
+    width: 100%;
+    height: 100%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*여기부터 장르*/
+#top_j{
+    width: 90%;
+    height: 90%;
+    overflow: auto;
+    z-index: 0;
+}
+#bt_j{
+    width: 100%;
+    height: 100%;
+}
+#pl_j{
+    width: 90%;
+    height: 100%;
+    background-color: white;
+}
+#jare_set{
+    list-style: none;
+    margin: 0px;
+    display: flex;
+    padding: 0px;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+.j_li {
+    width: 25%;
+    height: 100%;
+    border-width: 1px 1px 0px 1px;
+    border-color: white;
+    border-style: ridge;
+    margin: 0px;
+    box-sizing: border-box;
+    position: relative;
+}
+.J_sect{
+    width: 100%;
+    height: 50%;
+}
+.J_name{
+    text-align: center;
+    width: 100%;
+    height: 25%;
+    font-size: 126%;
+    position: relative;
+}
+.nm_J{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    font-size: 198%;
+    color: white;
+}
+.Genre_name{
+    width: 100%;
+    height: 10%;
+    position: relative;
+    background-color: lightskyblue;
+}
+.album_J {
+    width: 100%;
+    height: 60%;
+}
+.controler_J{
+    width: 100%;
+    height: 15%;
+}
+/*새로운 노래 */
+#bt_new{
+    width: 100%;
+    height: 100%;
+}
+#ch_new{
+    width: 100%;
+    height: 8%;
+    background-color: fuchsia;
+}
+#ctry{
+    width: 91%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 29pt;
+}
+#pl_new{
+    width: 90%;
+    height: 92%;
+    background-color: white;
+}
+.new_cha{
+    width: 50%;
+    height: 100%;
+}
+.new_song_set{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid beige;
+    box-sizing: border-box;
+}
+.num{
+    width: 10%;
+    text-align: center;
+}
+.n_ab{
+    width: 15%;
+    height: 100%;
+}
+.n_nm{
+    width: 40%;
+    text-align: center;
+}
+.n_ad{
+    width: 30%;
+}
+.img_n{
+    width: 84%;
+    height: 100%;
+    padding: 0px;
+}
+.ad_n{
+    width: 100%
+}
+/*chart*/
+.new_chart{
+    width: 100%;
+    height: 100%;
+}
+#ch_new_chart{
+    width: 100%;
+    height: 8%;
+    background-color: red;
+}
+/*----------------slide-----------------*/
+.slider{
+    width: 90%;
+    height: 40%;
+    overflow: hidden;
+}
+.slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+.slides input{
+    display: none;
+}
+.slide_first{
+
+}
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+.navigation-auto{
+    position: absolute;
+    display: none;
+    width: 81%;
+    justify-content: center;
+    margin-top: 298px;
+}
+.navigation-auto div{
+    border: 2px solid pink;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background: pink;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background: pink;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background: pink;
+}
+.navigation-manual{
+    position: absolute;
+    width: 81%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid pink;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background: pink;
+}
+#radio1:checked ~.first{
+    margin-left: 0;
+}
+#radio2:checked ~.first{
+    margin-left: -20%;
+}
+#radio3:checked ~.first{
+    margin-left: -40%;
+}
+.img_main{
+    width: 100%;
+    height: 100%;
+}

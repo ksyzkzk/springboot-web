@@ -3,6 +3,7 @@ package org.ksyzkzk.book.springboot.web.dto;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Getter;
 import org.ksyzkzk.book.springboot.domain.posts.Posts;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDateTime;
 
