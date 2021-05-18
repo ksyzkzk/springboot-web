@@ -7,8 +7,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-import javax.servlet.http.HttpServletRequest;
-
 @RequiredArgsConstructor
 @Controller
 public class IndexController {
@@ -42,7 +40,7 @@ public class IndexController {
 
     @GetMapping("/posts/save")
     public String postsSave(){
-        return "posts-save";
+        return "save";
     }
 
     @GetMapping("/posts/update/{id}")
@@ -50,7 +48,7 @@ public class IndexController {
         PostsResponseDto dto = postsService.findById(id);
         model.addAttribute("post",dto);
 
-        return "posts-update";
+        return "update";
     }
 
 }
